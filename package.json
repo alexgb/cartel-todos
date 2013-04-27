@@ -1,12 +1,19 @@
 {
   "name": "todomvc-cartel",
-  "description": "TodoMVC todo app using Cartel",
-  "version": "0.0.1",
+  "description": "TodoMVC example app using Cartel",
+  "version": "0.0.1-1",
   "main": "server/index.js",
   "dependencies": {
     "cartel": "*",
     "node-static": "0.6.x",
     "underscore": "1.4.x"
   },
-  "private": true
+  "private": true,
+  "subdomain": "cartel-todos",
+  "scripts": {
+    "start": "node server"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
 }
