@@ -1,7 +1,7 @@
 {
   "name": "todomvc-cartel",
   "description": "TodoMVC example app using Cartel",
-  "version": "0.0.1-1",
+  "version": "0.0.1-3",
   "main": "server/index.js",
   "dependencies": {
     "cartel": "*",
